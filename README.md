@@ -57,7 +57,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 - **A Decision-Theoretic Generalization of on-Line Learning and an Application to Boosting (1997—published as abstract in 1995)**, Freund and Schapire, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.32.8918). 
 
-- See also **Experiments with a New Boosting Algorithm (1996)**, Freund and Schapire, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.1040).
+- See also: **Experiments with a New Boosting Algorithm (1996)**, Freund and Schapire, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.1040).
 
 ##### Bagging
 
@@ -116,7 +116,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 - **Regression Shrinkage and Selection Via the Lasso (1994)**, Tibshirani. [@CiteSeerX](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.35.7574). 
 
-- See also **Linear Inversion of Band-Limited Reflection Seismograms (1986)**, Santosa and Symes, [@SIAM](https://epubs.siam.org/doi/10.1137/0907087).
+- See also: **Linear Inversion of Band-Limited Reflection Seismograms (1986)**, Santosa and Symes, [@SIAM](https://epubs.siam.org/doi/10.1137/0907087).
 
 #### Support Vector Machine
 
