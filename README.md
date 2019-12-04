@@ -116,7 +116,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 ##### Deep Blue
 
-- IBM's deep blue chess grandmaster chips (1999)**, Hsu, [@IEEE](https://ieeexplore.ieee.org/abstract/document/755469) 🔒.
+- **IBM's deep blue chess grandmaster chips (1999)**, Hsu, [@IEEE](https://ieeexplore.ieee.org/abstract/document/755469) 🔒.
 - See also: **Deep Blue (2002)**, Campbell, Hoane, and Hsu, [@ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0004370201001291?via%3Dihub) 🔒.
 
 #### Optimization
