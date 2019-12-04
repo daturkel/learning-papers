@@ -4,7 +4,7 @@
 
 *My opinions are by no means the final word on these topics. Please create an issue or pull request if you have a suggestion.*
 
-#### Key:
+#### Key
 
 | Icon |                                                              |
 | ---- | ------------------------------------------------------------ |
@@ -13,13 +13,15 @@
 | 💽    | Code associated with the paper.                              |
 | 🏛️    | Precursor or historically relevant paper. This may be a fundamental breakthrough that paved the way for the concept in question to be developed. |
 | 🔬    | Iteration, advancement, elaboration, or major popularization of a technique. |
-| 🌐    | Not an academic paper.                                       |
+| 🌐    | Not an academic/technical paper/article.                     |
 
 Papers proceeded by “See also” indicate either additional historical context or else major developments, breakthroughs, or applications.
 
 * [Association Rule Learning](#association-rule-learning)
 * [Clustering](#clustering)
   + [k-Nearest Neighbors](#k-nearest-neighbors)
+* [Datasets](#datasets)
+  + [ImageNet](#imagenet)
 * [Decision Trees](#decision-trees)
 * [Ensemble Methods](#ensemble-methods)
   + [AdaBoost](#adaboost)
@@ -27,11 +29,16 @@ Papers proceeded by “See also” indicate either additional historical context
   + [Generative Adversarial Network](#generative-adversarial-network)
   + [Gradient Boosting](#gradient-boosting)
   + [Random Forest](#random-forest)
+* [Games](#games)
+  + [AlphaGo](#alphago)
+  + [Deep Blue](#deep-blue)
 * [Optimization](#optimization)
   + [Expectation Maximization](#expectation-maximization)
   + [Stochastic Gradient Descent](#stochastic-gradient-descent)
 * [Miscellaneous](#miscellaneous)
+  + [Non-negative Matrix Factorization](#non-negative-matrix-factorization)
   + [PageRank](#pagerank)
+  + [DeepQA (Watson)](#deepqa--watson-)
 * [Natural Language Processing](#natural-language-processing)
   + [Latent Semantic Analysis](#latent-semantic-analysis)
   + [Word2Vec](#word2vec)
@@ -39,7 +46,8 @@ Papers proceeded by “See also” indicate either additional historical context
   + [Back-propagation](#back-propagation)
   + [Convolutional Neural Network](#convolutional-neural-network)
   + [Dropout](#dropout)
-  + [Inception (CNN)](#inception--cnn-)
+  + [Inception (classification/detection CNN)](#inception--classification-detection-cnn-)
+  + [Long Short-Term Memory (LSTM)](#long-short-term-memory--lstm-)
   + [Perceptron](#perceptron)
 * [Recommender Systems](#recommender-systems)
   + [Collaborative Filtering](#collaborative-filtering)
@@ -64,6 +72,13 @@ Papers proceeded by “See also” indicate either additional historical context
 - **Nearest neighbor pattern classification (1967)**, Cover and Hart, [@IEEE](https://ieeexplore.ieee.org/abstract/document/1053964) 🔒. 
 
 - See also: **E. Fix and J.L. Hodges (1951): An Important Contribution to Nonparametric Discriminant Analysis and Density Estimation (1989)**, Silverman and Jones, [@JSTOR](https://www.jstor.org/stable/1403796?seq=1) 🔒.
+
+#### Datasets
+
+##### ImageNet
+
+- **ImageNet: A large-scale hierarchical image database (2009)**, Deng et al., [@IEEE](https://ieeexplore.ieee.org/document/5206848) 🔒 / [@author](http://www.image-net.org/papers/imagenet_cvpr09.pdf) 🔑.
+- See also: **ImageNet Large Scale Visual Recognition Challenge (2015)**, [@Springer](https://link.springer.com/article/10.1007/s11263-015-0816-y) 🔒 / [@arXiv](https://arxiv.org/abs/1409.0575) 🔑 + [@author](http://www.image-net.org/challenges/LSVRC/) 🌐.
 
 #### Decision Trees
 
@@ -93,6 +108,17 @@ Papers proceeded by “See also” indicate either additional historical context
 
 - **Random Forests (2001)**, Breiman and Schapire, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.125.5395).
 
+#### Games
+
+##### AlphaGo
+
+- **Mastering the game of Go with deep neural networks and tree search (2016)**, Silver et al., [@Nature](https://www.nature.com/articles/nature16961).
+
+##### Deep Blue
+
+- IBM's deep blue chess grandmaster chips (1999)**, Hsu, [@IEEE](https://ieeexplore.ieee.org/abstract/document/755469) 🔒.
+- See also: **Deep Blue (2002)**, Campbell, Hoane, and Hsu, [@ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0004370201001291?via%3Dihub) 🔒.
+
 #### Optimization
 
 ##### Expectation Maximization
@@ -106,9 +132,17 @@ Papers proceeded by “See also” indicate either additional historical context
 
 #### Miscellaneous
 
+##### Non-negative Matrix Factorization
+
+- **Learning the parts of objects by non-negative matrix factorization (1999)**, Lee and Seung, [@Nature](https://www.nature.com/articles/44565) 🔒.
+
 ##### PageRank
 
 - **The PageRank Citation Ranking: Bringing Order to the Web (1998)**, Page, Brin, Motwani, and Winograd, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.5427).
+
+##### DeepQA (Watson)
+
+- **Building Watson: An Overview of the DeepQA Project (2010)**, Ferrucci et al., [@AAAI](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2303).
 
 #### Natural Language Processing
 
@@ -137,11 +171,15 @@ Papers proceeded by “See also” indicate either additional historical context
 
 - **Dropout: A Simple Way to Prevent Neural Networks from Overfitting (2014)**, Srivastava, Hinton, Krizhevsky, Sutskever, and Salakhutdinov, [@JMLR](http://jmlr.org/papers/v15/srivastava14a.html).
 
-##### Inception (CNN)
+##### Inception (classification/detection CNN)
 
 - **Going Deeper with Convolutions (2014)**, Szegedy et al., [@ai.google](https://ai.google/research/pubs/pub43022) + [@Github](https://github.com/google/inception) 💽.
 - See also: **Rethinking the Inception Architecture for Computer Vision (2016)**, Szegedy, Vanhoucke, Ioffe, Shlens, and Wojna, [@ai.google](https://ai.google/research/pubs/pub44903) 🔬.
 - See also: **Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning (2016)**, Szegedy, Ioffe, Vanhoucke, and Alemi, [@ai.google](https://ai.google/research/pubs/pub45169) 🔬.
+
+##### Long Short-Term Memory (LSTM)
+
+- **Long Short-term Memory (1995)**, Hochreiter and Schmidhuber, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.634).
 
 ##### Perceptron
 
