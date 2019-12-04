@@ -8,7 +8,30 @@ Links with a lock icon (🔒) indicate papers behind a paywall, though these pap
 
 Papers proceeded by “See also” indicate either additional historical context or else major developments, breakthroughs, or applications.
 
-[TOC]
+- [Landmark Papers in Machine Learning](#landmark-papers-in-machine-learning)
+  * [Association Rule Learning](#association-rule-learning)
+  * [Clustering](#clustering)
+    + [k-Nearest Neighbors](#k-nearest-neighbors)
+  * [Decision Trees](#decision-trees)
+  * [Ensemble Methods](#ensemble-methods)
+    + [AdaBoost](#adaboost)
+    + [Bagging](#bagging)
+    + [Generative Adversarial Network](#generative-adversarial-network)
+    + [Gradient Boosting](#gradient-boosting)
+    + [Random Forest](#random-forest)
+  * [Miscellaneous](#miscellaneous)
+    + [PageRank](#pagerank)
+  * [Natural Language Processing](#natural-language-processing)
+    + [Word2Vec](#word2vec)
+  * [Neural Networks](#neural-networks)
+    + [Back-propagation](#back-propagation)
+    + [Convolutional Neural Network](#convolutional-neural-network)
+    + [Dropout](#dropout)
+    + [Inception (CNN)](#inception--cnn-)
+  * [Regression](#regression)
+    + [Lasso](#lasso)
+  * [Support Vector Machine](#support-vector-machine)
+- [Credits](#credits)
 
 #### Association Rule Learning
 
