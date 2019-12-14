@@ -275,7 +275,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 - **Bootstrap Methods: Another Look at the Jackknife (1979)**, Efron, [@Project Euclid](https://projecteuclid.org/euclid.aos/1176344552).
 - See also: **Problems in Plane Sampling (1949)**, Quenouille, [@Project Euclid](https://projecteuclid.org/euclid.aoms/1177729989) 🏛️.
-- See also: Notes on Bias Estimation (1958), Quenouille, [@JSTOR](https://www.jstor.org/stable/2332914?seq=1) 🏛️.
+- See also: **Notes on Bias Estimation (1958)**, Quenouille, [@JSTOR](https://www.jstor.org/stable/2332914?seq=1) 🏛️.
 - See also: **Bias and Confidence in Not-quite Large Samples (1958)**, Tukey, [@Project Euclid](https://projecteuclid.org/euclid.aoms/1177706647) 🔬.
 
 ### Credits
