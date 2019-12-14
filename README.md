@@ -271,7 +271,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 #### Statistics
 
-#### The Bootstrap
+##### The Bootstrap
 
 - **Bootstrap Methods: Another Look at the Jackknife (1979)**, Efron, [@Project Euclid](https://projecteuclid.org/euclid.aos/1176344552).
 - See also: **Problems in Plane Sampling (1949)**, Quenouille, [@Project Euclid](https://projecteuclid.org/euclid.aoms/1177729989) 🏛️.
