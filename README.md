@@ -256,7 +256,7 @@ Papers proceeded by “See also” indicate either additional historical context
 ##### Torch
 
 - **Torch: A Modular Machine Learning Software Library (2002)**, Collobert, Bengio and Mariéthoz, [@Idiap](http://publications.idiap.ch/index.php/publications/show/712) + [@author](http://torch.ch/) 🌐.
-- See also: **Automatic differentiation in PyTorch (2017)**, Paszke et al., [@OpenReview](https://openreview.net/forum?id=BJJsrmfCZ) 🔬+ [@Github](https://github.com/pytorch/pytorch).
+- See also: **Automatic differentiation in PyTorch (2017)**, Paszke et al., [@OpenReview](https://openreview.net/forum?id=BJJsrmfCZ) 🔬+ [@Github](https://github.com/pytorch/pytorch) 💽.
 
 #### Supervised Learning
 
