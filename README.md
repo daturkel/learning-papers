@@ -13,50 +13,64 @@
 | 💽    | Code associated with the paper.                              |
 | 🏛️    | Precursor or historically relevant paper. This may be a fundamental breakthrough that paved the way for the concept in question to be developed. |
 | 🔬    | Iteration, advancement, elaboration, or major popularization of a technique. |
-| 🌐    | Not an academic/technical paper/article.                     |
+| 📔    | Original publication was a blog post or something other than a formal publication. |
+| 🌐    | Website associated with the paper.                           |
+| 🎥    | Video associated with the paper.                             |
+| 📊    | Slides or images associated with the paper.                  |
 
 Papers proceeded by “See also” indicate either additional historical context or else major developments, breakthroughs, or applications.
 
-* [Association Rule Learning](#association-rule-learning)
-* [Clustering](#clustering)
-  + [k-Nearest Neighbors](#k-nearest-neighbors)
-* [Datasets](#datasets)
-  + [ImageNet](#imagenet)
-* [Decision Trees](#decision-trees)
-* [Ensemble Methods](#ensemble-methods)
-  + [AdaBoost](#adaboost)
-  + [Bagging](#bagging)
-  + [Generative Adversarial Network](#generative-adversarial-network)
-  + [Gradient Boosting](#gradient-boosting)
-  + [Random Forest](#random-forest)
-* [Games](#games)
-  + [AlphaGo](#alphago)
-  + [Deep Blue](#deep-blue)
-* [Optimization](#optimization)
-  + [Expectation Maximization](#expectation-maximization)
-  + [Stochastic Gradient Descent](#stochastic-gradient-descent)
-* [Miscellaneous](#miscellaneous)
-  + [Non-negative Matrix Factorization](#non-negative-matrix-factorization)
-  + [PageRank](#pagerank)
-  + [DeepQA (Watson)](#deepqa--watson-)
-* [Natural Language Processing](#natural-language-processing)
-  + [Latent Semantic Analysis](#latent-semantic-analysis)
-  + [Word2Vec](#word2vec)
-* [Neural Networks](#neural-networks)
-  + [Back-propagation](#back-propagation)
-  + [Convolutional Neural Network](#convolutional-neural-network)
-  + [Dropout](#dropout)
-  + [Inception (classification/detection CNN)](#inception--classification-detection-cnn-)
-  + [Long Short-Term Memory (LSTM)](#long-short-term-memory--lstm-)
-  + [Perceptron](#perceptron)
-* [Recommender Systems](#recommender-systems)
-  + [Collaborative Filtering](#collaborative-filtering)
-  + [Matrix Factorization](#matrix-factorization)
-  + [Implicit Matrix Factorization](#implicit-matrix-factorization)
-* [Regression](#regression)
-  + [Lasso](#lasso)
-* [Support Vector Machine](#support-vector-machine)
-
+  * [Association Rule Learning](#association-rule-learning)
+  * [Datasets](#datasets)
+    + [Enron](#enron)
+    + [ImageNet](#imagenet)
+  * [Decision Trees](#decision-trees)
+  * [Ensemble Methods](#ensemble-methods)
+    + [AdaBoost](#adaboost)
+    + [Bagging](#bagging)
+    + [Gradient Boosting](#gradient-boosting)
+    + [Random Forest](#random-forest)
+  * [Games](#games)
+    + [AlphaGo](#alphago)
+    + [Deep Blue](#deep-blue)
+  * [Optimization](#optimization)
+    + [Expectation Maximization](#expectation-maximization)
+    + [Stochastic Gradient Descent](#stochastic-gradient-descent)
+  * [Miscellaneous](#miscellaneous)
+    + [Non-negative Matrix Factorization](#non-negative-matrix-factorization)
+    + [PageRank](#pagerank)
+    + [DeepQA (Watson)](#deepqa--watson-)
+  * [Natural Language Processing](#natural-language-processing)
+    + [Latent Dirichlet Allocation](#latent-dirichlet-allocation)
+    + [Latent Semantic Analysis](#latent-semantic-analysis)
+    + [Word2Vec](#word2vec)
+  * [Neural Networks (general)](#neural-networks--general-)
+    + [Back-propagation](#back-propagation)
+    + [Convolutional Neural Network](#convolutional-neural-network)
+    + [Dropout](#dropout)
+    + [Generative Adversarial Network](#generative-adversarial-network)
+    + [Long Short-Term Memory (LSTM)](#long-short-term-memory--lstm-)
+    + [Perceptron](#perceptron)
+    + [Residual Neural Network (ResNet)](#residual-neural-network--resnet-)
+  * [Neural Networks (specific)](#neural-networks--specific-)
+    + [DeepFace (facial recognition)](#deepface--facial-recognition-)
+    + [Inception (classification/detection CNN)](#inception--classification-detection-cnn-)
+    + [U-Net (image segmentation CNN)](#u-net--image-segmentation-cnn-)
+    + [VGG (image recognition CNN)](#vgg--image-recognition-cnn-)
+  * [Recommender Systems](#recommender-systems)
+    + [Collaborative Filtering](#collaborative-filtering)
+    + [Matrix Factorization](#matrix-factorization)
+    + [Implicit Matrix Factorization](#implicit-matrix-factorization)
+  * [Regression](#regression)
+    + [Lasso](#lasso)
+  * [Software](#software)
+    + [MapReduce](#mapreduce)
+    + [TensorFlow](#tensorflow)
+    + [Torch](#torch)
+  * [Supervised Learning](#supervised-learning)
+    + [k-Nearest Neighbors](#k-nearest-neighbors)
+    + [Support Vector Machine](#support-vector-machine)
+  * [Statistics](#statistics)
 - [Credits](#credits)
 
 #### Association Rule Learning
@@ -65,15 +79,12 @@ Papers proceeded by “See also” indicate either additional historical context
 
 - See also: **The GUHA method of automatic hypotheses determination (1966)**, Hájek, Havel, and Chytil, [@Springer](https://link.springer.com/article/10.1007/BF02345483) 🔒 🏛️.
 
-#### Clustering
-
-##### k-Nearest Neighbors
-
-- **Nearest neighbor pattern classification (1967)**, Cover and Hart, [@IEEE](https://ieeexplore.ieee.org/abstract/document/1053964) 🔒. 
-
-- See also: **E. Fix and J.L. Hodges (1951): An Important Contribution to Nonparametric Discriminant Analysis and Density Estimation (1989)**, Silverman and Jones, [@JSTOR](https://www.jstor.org/stable/1403796?seq=1) 🔒.
-
 #### Datasets
+
+##### Enron
+
+- **The Enron Corpus: A New Dataset for Email Classification Research (2004)**, Klimt and Yang, [@Springer](https://link.springer.com/chapter/10.1007/978-3-540-30115-8_22) 🔒 / [@author](https://bklimt.com/papers/2004_klimt_ecml.pdf) 🔑.
+- See also: **Introducing the Enron Corpus (2004)**, Klimt and Yang, [@author](https://bklimt.com/papers/2004_klimt_ceas.pdf).
 
 ##### ImageNet
 
@@ -95,10 +106,6 @@ Papers proceeded by “See also” indicate either additional historical context
 ##### Bagging
 
 - **Bagging Predictors (1996)**, Breiman, [@Springer](https://link.springer.com/article/10.1023/A:1018054314350).
-
-##### Generative Adversarial Network
-
-- **General Adversarial Nets (2014)**, Goodfellow et al., [@NIPS](https://papers.nips.cc/paper/5423-generative-adversarial-nets) + [@Github](https://github.com/goodfeli/adversarial) 💽.
 
 ##### Gradient Boosting
 
@@ -146,6 +153,10 @@ Papers proceeded by “See also” indicate either additional historical context
 
 #### Natural Language Processing
 
+##### Latent Dirichlet Allocation
+
+- **Latent Dirichlet Allocation (2003)**, Blei, Ng, and Jordan, [@JMLR](http://jmlr.csail.mit.edu/papers/v3/blei03a.html)
+
 ##### Latent Semantic Analysis
 
 - **Indexing by latent semantic analysis (1990)**, Deerwater, Dumais, Furnas, Landauer, and Harshman, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.108.8490).
@@ -154,7 +165,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 - **Efficient Estimation of Word Representations in Vector Space (2013)**, Mikolov, Chen, Corrado, and Dean, [@arXiv](https://arxiv.org/abs/1301.3781) + [@Google Code](https://code.google.com/archive/p/word2vec/) 💽.
 
-#### Neural Networks
+#### Neural Networks (general)
 
 ##### Back-propagation
 
@@ -166,16 +177,15 @@ Papers proceeded by “See also” indicate either additional historical context
 - **Gradient-based learning applied to document recognition (1998)**, LeCun, Bottou, Bengio, and Haffner, [@IEEE](https://ieeexplore.ieee.org/document/726791/) 🔒 / [@author](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) 🔑.
 - See also: **Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position (1980)**, Fukushima, [@Springer](https://link.springer.com/article/10.1007/BF00344251) 🏛️.
 - See also: **Phoneme recognition using time-delay neural networks (1989)**, Waibel, Hanazawa, Hinton, Shikano, and Lang, [@IEEE](https://ieeexplore.ieee.org/document/21701) 🏛️.
+- See also: **Fully Convolutional Networks for Semantic Segmentation (2014)**, Long, Shelhamer, and Darrell, [@arXiv](https://arxiv.org/abs/1411.4038).
 
 ##### Dropout
 
 - **Dropout: A Simple Way to Prevent Neural Networks from Overfitting (2014)**, Srivastava, Hinton, Krizhevsky, Sutskever, and Salakhutdinov, [@JMLR](http://jmlr.org/papers/v15/srivastava14a.html).
 
-##### Inception (classification/detection CNN)
+##### Generative Adversarial Network
 
-- **Going Deeper with Convolutions (2014)**, Szegedy et al., [@ai.google](https://ai.google/research/pubs/pub43022) + [@Github](https://github.com/google/inception) 💽.
-- See also: **Rethinking the Inception Architecture for Computer Vision (2016)**, Szegedy, Vanhoucke, Ioffe, Shlens, and Wojna, [@ai.google](https://ai.google/research/pubs/pub44903) 🔬.
-- See also: **Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning (2016)**, Szegedy, Ioffe, Vanhoucke, and Alemi, [@ai.google](https://ai.google/research/pubs/pub45169) 🔬.
+- **General Adversarial Nets (2014)**, Goodfellow et al., [@NIPS](https://papers.nips.cc/paper/5423-generative-adversarial-nets) + [@Github](https://github.com/goodfeli/adversarial) 💽.
 
 ##### Long Short-Term Memory (LSTM)
 
@@ -184,6 +194,30 @@ Papers proceeded by “See also” indicate either additional historical context
 ##### Perceptron
 
 - **The Perceptron: A Probabilistic Model for Information Storage and Organization in The Brain (1958)**, Rosenblatt, [@CiteSeerX](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.588.3775).
+
+##### Residual Neural Network (ResNet)
+
+- **Deep Residual Learning for Image Recognition (2015)**, He, Zhang, Ren, and Sun, [@arXiv](https://arxiv.org/abs/1512.03385).
+
+#### Neural Networks (specific)
+
+##### DeepFace (facial recognition)
+
+- **DeepFace: Closing the Gap to Human-Level Performance in Face Verification (2014)**, Taigman, Yang, Ranzato, and Wolf, [Facebook Research](https://research.fb.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/).
+
+##### Inception (classification/detection CNN)
+
+- **Going Deeper with Convolutions (2014)**, Szegedy et al., [@ai.google](https://ai.google/research/pubs/pub43022) + [@Github](https://github.com/google/inception) 💽.
+- See also: **Rethinking the Inception Architecture for Computer Vision (2016)**, Szegedy, Vanhoucke, Ioffe, Shlens, and Wojna, [@ai.google](https://ai.google/research/pubs/pub44903) 🔬.
+- See also: **Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning (2016)**, Szegedy, Ioffe, Vanhoucke, and Alemi, [@ai.google](https://ai.google/research/pubs/pub45169) 🔬.
+
+##### U-Net (image segmentation CNN)
+
+- **U-Net: Convolutional Networks for Biomedical Image Segmentation (2015)**, Ronneberger, Fischer, Brox, [@Springer](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28) 🔒 / [@arXiv](https://arxiv.org/abs/1505.04597) 🔑.
+
+##### VGG (image recognition CNN)
+
+- **Very Deep Convolutional Networks for Large-Scale Image Recognition (2015)**, Simonyan and Zisserman, [@arXiv](https://arxiv.org/abs/1409.1556) + [@author](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) 🌐 + [@ICLR](https://iclr.cc/archive/www/lib/exe/fetch.php%3Fmedia=iclr2015:simonyan-iclr2015.pdf) 📊 + [@YouTube](https://www.youtube.com/watch?v=OQe-9P51Z0s) 🎥.
 
 #### Recommender Systems
 
@@ -194,8 +228,8 @@ Papers proceeded by “See also” indicate either additional historical context
 ##### Matrix Factorization
 
 - **Application of Dimensionality Reduction in Recommender System - A Case Study (2000)**, Sarwar, Karypis, Konstan, and Riedl, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.29.8381).
-- See also **Learning Collaborative Information Filters (1998)**, Billsus, Pazzani, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.487.3789) 🏛️.
-- See also **Netflix Update: Try This at Home (2006)**, Funk, [@author](https://sifter.org/~simon/journal/20061211.html) 🌐 🔬.
+- See also: **Learning Collaborative Information Filters (1998)**, Billsus and Pazzani, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.487.3789) 🏛️.
+- See also: **Netflix Update: Try This at Home (2006)**, Funk, [@author](https://sifter.org/~simon/journal/20061211.html) 📔 🔬.
 
 ##### Implicit Matrix Factorization
 
@@ -205,13 +239,41 @@ Papers proceeded by “See also” indicate either additional historical context
 
 ##### Lasso
 
-- **Regression Shrinkage and Selection Via the Lasso (1994)**, Tibshirani. [@CiteSeerX](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.35.7574). 
-
+- **Regression Shrinkage and Selection Via the Lasso (1994)**, Tibshirani, [@CiteSeerX](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.35.7574). 
 - See also: **Linear Inversion of Band-Limited Reflection Seismograms (1986)**, Santosa and Symes, [@SIAM](https://epubs.siam.org/doi/10.1137/0907087) 🏛️.
 
-#### Support Vector Machine
+#### Software
+
+##### MapReduce
+
+- **MapReduce: Simplified Data Processing on Large Clusters (2004)**, Dean and Ghemawat, [@ai.google](https://ai.google/research/pubs/pub62).
+
+##### TensorFlow
+
+- **TensorFlow: A system for large-scale machine learning (2016)**, Abadi et al., [@ai.google](https://ai.google/research/pubs/pub45381) + [@author](https://www.tensorflow.org/) 🌐.
+
+##### Torch
+
+- **Torch: A Modular Machine Learning Software Library (2002)**, Collobert, Bengio and Mariéthoz, [@Idiap](http://publications.idiap.ch/index.php/publications/show/712) + [@author](http://torch.ch/) 🌐.
+- See also: **Automatic differentiation in PyTorch (2017)**, Paszke et al., [@OpenReview](https://openreview.net/forum?id=BJJsrmfCZ) 🔬+ [@Github](https://github.com/pytorch/pytorch).
+
+#### Supervised Learning
+
+##### k-Nearest Neighbors
+
+- **Nearest neighbor pattern classification (1967)**, Cover and Hart, [@IEEE](https://ieeexplore.ieee.org/abstract/document/1053964) 🔒. 
+- See also: **E. Fix and J.L. Hodges (1951): An Important Contribution to Nonparametric Discriminant Analysis and Density Estimation (1989)**, Silverman and Jones, [@JSTOR](https://www.jstor.org/stable/1403796?seq=1) 🔒.
+
+##### Support Vector Machine
 
 - **Support Vector Networks (1995)**, Cortes and Vapnik, [@Springer](https://link.springer.com/article/10.1023/A:1022627411411).
+
+#### Statistics
+
+- **Bootstrap Methods: Another Look at the Jackknife (1979)**, Efron, [@Project Euclid](https://projecteuclid.org/euclid.aos/1176344552).
+- See also: **Problems in Plane Sampling (1949)**, Quenouille, [@Project Euclid](https://projecteuclid.org/euclid.aoms/1177729989) 🏛️.
+- See also: Notes on Bias Estimation (1958), Quenouille, [@JSTOR](https://www.jstor.org/stable/2332914?seq=1) 🏛️.
+- See also: **Bias and Confidence in Not-quite Large Samples (1958)**, Tukey, [@Project Euclid](https://projecteuclid.org/euclid.aoms/1177706647) 🔬.
 
 ### Credits
 
