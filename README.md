@@ -71,6 +71,7 @@ Papers proceeded by “See also” indicate either additional historical context
     + [k-Nearest Neighbors](#k-nearest-neighbors)
     + [Support Vector Machine](#support-vector-machine)
   * [Statistics](#statistics)
+    + [The Bootstrap](#the-bootstrap)
 - [Credits](#credits)
 
 #### Association Rule Learning
@@ -269,6 +270,8 @@ Papers proceeded by “See also” indicate either additional historical context
 - **Support Vector Networks (1995)**, Cortes and Vapnik, [@Springer](https://link.springer.com/article/10.1023/A:1022627411411).
 
 #### Statistics
+
+#### The Bootstrap
 
 - **Bootstrap Methods: Another Look at the Jackknife (1979)**, Efron, [@Project Euclid](https://projecteuclid.org/euclid.aos/1176344552).
 - See also: **Problems in Plane Sampling (1949)**, Quenouille, [@Project Euclid](https://projecteuclid.org/euclid.aoms/1177729989) 🏛️.
