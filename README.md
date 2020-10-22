@@ -13,66 +13,12 @@
 | 💽    | Code associated with the paper.                              |
 | 🏛️    | Precursor or historically relevant paper. This may be a fundamental breakthrough that paved the way for the concept in question to be developed. |
 | 🔬    | Iteration, advancement, elaboration, or major popularization of a technique. |
-| 📔    | Original publication was a blog post or something other than a formal publication. |
+| 📔    | Blog post or something other than a formal publication.      |
 | 🌐    | Website associated with the paper.                           |
 | 🎥    | Video associated with the paper.                             |
 | 📊    | Slides or images associated with the paper.                  |
 
 Papers proceeded by “See also” indicate either additional historical context or else major developments, breakthroughs, or applications.
-
-  * [Association Rule Learning](#association-rule-learning)
-  * [Datasets](#datasets)
-    + [Enron](#enron)
-    + [ImageNet](#imagenet)
-  * [Decision Trees](#decision-trees)
-  * [Ensemble Methods](#ensemble-methods)
-    + [AdaBoost](#adaboost)
-    + [Bagging](#bagging)
-    + [Gradient Boosting](#gradient-boosting)
-    + [Random Forest](#random-forest)
-  * [Games](#games)
-    + [AlphaGo](#alphago)
-    + [Deep Blue](#deep-blue)
-  * [Optimization](#optimization)
-    + [Expectation Maximization](#expectation-maximization)
-    + [Stochastic Gradient Descent](#stochastic-gradient-descent)
-  * [Miscellaneous](#miscellaneous)
-    + [Non-negative Matrix Factorization](#non-negative-matrix-factorization)
-    + [PageRank](#pagerank)
-    + [DeepQA (Watson)](#deepqa--watson-)
-  * [Natural Language Processing](#natural-language-processing)
-    + [Latent Dirichlet Allocation](#latent-dirichlet-allocation)
-    + [Latent Semantic Analysis](#latent-semantic-analysis)
-    + [Word2Vec](#word2vec)
-  * [Neural Networks (general)](#neural-networks--general-)
-    + [Back-propagation](#back-propagation)
-    + [Convolutional Neural Network](#convolutional-neural-network)
-    + [Dropout](#dropout)
-    + [Generative Adversarial Network](#generative-adversarial-network)
-    + [Long Short-Term Memory (LSTM)](#long-short-term-memory--lstm-)
-    + [Perceptron](#perceptron)
-    + [Residual Neural Network (ResNet)](#residual-neural-network--resnet-)
-  * [Neural Networks (specific)](#neural-networks--specific-)
-    + [DeepFace (facial recognition)](#deepface--facial-recognition-)
-    + [Inception (classification/detection CNN)](#inception--classification-detection-cnn-)
-    + [U-Net (image segmentation CNN)](#u-net--image-segmentation-cnn-)
-    + [VGG (image recognition CNN)](#vgg--image-recognition-cnn-)
-  * [Recommender Systems](#recommender-systems)
-    + [Collaborative Filtering](#collaborative-filtering)
-    + [Matrix Factorization](#matrix-factorization)
-    + [Implicit Matrix Factorization](#implicit-matrix-factorization)
-  * [Regression](#regression)
-    + [Lasso](#lasso)
-  * [Software](#software)
-    + [MapReduce](#mapreduce)
-    + [TensorFlow](#tensorflow)
-    + [Torch](#torch)
-  * [Supervised Learning](#supervised-learning)
-    + [k-Nearest Neighbors](#k-nearest-neighbors)
-    + [Support Vector Machine](#support-vector-machine)
-  * [Statistics](#statistics)
-    + [The Bootstrap](#the-bootstrap)
-- [Credits](#credits)
 
 #### Association Rule Learning
 
@@ -96,6 +42,59 @@ Papers proceeded by “See also” indicate either additional historical context
 
 - **Induction of Decision Trees (1986)**, Quinlan, [@Springer](https://link.springer.com/article/10.1007/BF00116251).
 
+#### Deep Learning
+
+##### AlexNet (image classification CNN)
+
+- **ImageNet Classification with Deep Convolutional Neural Networks (2012)**, [@NIPS](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks).
+
+##### Convolutional Neural Network
+
+- **Gradient-based learning applied to document recognition (1998)**, LeCun, Bottou, Bengio, and Haffner, [@IEEE](https://ieeexplore.ieee.org/document/726791/) 🔒 / [@author](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) 🔑.
+- See also: **Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position (1980)**, Fukushima, [@Springer](https://link.springer.com/article/10.1007/BF00344251) 🏛️.
+- See also: **Phoneme recognition using time-delay neural networks (1989)**, Waibel, Hanazawa, Hinton, Shikano, and Lang, [@IEEE](https://ieeexplore.ieee.org/document/21701) 🏛️.
+- See also: **Fully Convolutional Networks for Semantic Segmentation (2014)**, Long, Shelhamer, and Darrell, [@arXiv](https://arxiv.org/abs/1411.4038).
+
+##### DeepFace (facial recognition)
+
+- **DeepFace: Closing the Gap to Human-Level Performance in Face Verification (2014)**, Taigman, Yang, Ranzato, and Wolf, [Facebook Research](https://research.fb.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/).
+
+##### Generative Adversarial Network
+
+- **General Adversarial Nets (2014)**, Goodfellow et al., [@NIPS](https://papers.nips.cc/paper/5423-generative-adversarial-nets) + [@Github](https://github.com/goodfeli/adversarial) 💽.
+
+##### GPT
+
+- **Improving Language Understanding by Generative Pre-Training (2018)** *aka* GPT, Radford, Narasimhan, Salimans, and Sutskever, [@OpenAI](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) + [@Github](https://github.com/openai/finetune-transformer-lm) 💽 + [@OpenAI](https://openai.com/blog/language-unsupervised/) 📔.
+- See also: **Language Models are Unsupervised Multitask Learners (2019)** *aka* GPT-2, Radford, Wu, Child, Luan, Amodei, and Sutskever, [@OpenAI](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) 🔬 + [@Github](https://github.com/openai/gpt-2) 💽 + [@OpenAI](https://openai.com/blog/better-language-models/) 📔.
+- See also: **Language Models are Few-Shot Learners (2020)** *aka* GPT-3, Brown et al., [@arXiv](https://arxiv.org/abs/2005.14165) + [@OpenAI](https://openai.com/blog/openai-api/) 📔.
+
+##### Inception (classification/detection CNN)
+
+- **Going Deeper with Convolutions (2014)**, Szegedy et al., [@ai.google](https://ai.google/research/pubs/pub43022) + [@Github](https://github.com/google/inception) 💽.
+- See also: **Rethinking the Inception Architecture for Computer Vision (2016)**, Szegedy, Vanhoucke, Ioffe, Shlens, and Wojna, [@ai.google](https://ai.google/research/pubs/pub44903) 🔬.
+- See also: **Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning (2016)**, Szegedy, Ioffe, Vanhoucke, and Alemi, [@ai.google](https://ai.google/research/pubs/pub45169) 🔬.
+
+##### Long Short-Term Memory (LSTM)
+
+- **Long Short-term Memory (1995)**, Hochreiter and Schmidhuber, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.634).
+
+##### Residual Neural Network (ResNet)
+
+- **Deep Residual Learning for Image Recognition (2015)**, He, Zhang, Ren, and Sun, [@arXiv](https://arxiv.org/abs/1512.03385).
+
+##### Transformer (sequence to sequence modeling)
+
+- **Attention Is All You Need (2017)**, Vaswani et al., [@NIPS](http://papers.nips.cc/paper/7181-attention-is-all-you-need).
+
+##### U-Net (image segmentation CNN)
+
+- **U-Net: Convolutional Networks for Biomedical Image Segmentation (2015)**, Ronneberger, Fischer, Brox, [@Springer](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28) 🔒 / [@arXiv](https://arxiv.org/abs/1505.04597) 🔑.
+
+##### VGG (image recognition CNN)
+
+- **Very Deep Convolutional Networks for Large-Scale Image Recognition (2015)**, Simonyan and Zisserman, [@arXiv](https://arxiv.org/abs/1409.1556) + [@author](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) 🌐 + [@ICLR](https://iclr.cc/archive/www/lib/exe/fetch.php%3Fmedia=iclr2015:simonyan-iclr2015.pdf) 📊 + [@YouTube](https://www.youtube.com/watch?v=OQe-9P51Z0s) 🎥.
+
 #### Ensemble Methods
 
 ##### AdaBoost
@@ -111,6 +110,7 @@ Papers proceeded by “See also” indicate either additional historical context
 ##### Gradient Boosting
 
 - **Greedy function approximation: A gradient boosting machine (2001)**, Friedman, [@Project Euclid](https://projecteuclid.org/euclid.aos/1013203451).
+- See also: **XGBoost: A Scalable Tree Boosting System (2016)**, Chen and Guestrin, [@arXiv](https://arxiv.org/abs/1603.02754) 🔬 + [@GitHub](https://github.com/dmlc/xgboost) 💽.
 
 ##### Random Forest
 
@@ -166,59 +166,32 @@ Papers proceeded by “See also” indicate either additional historical context
 
 - **Efficient Estimation of Word Representations in Vector Space (2013)**, Mikolov, Chen, Corrado, and Dean, [@arXiv](https://arxiv.org/abs/1301.3781) + [@Google Code](https://code.google.com/archive/p/word2vec/) 💽.
 
-#### Neural Networks (general)
+#### Neural Network Components
+
+##### Autograd
+
+- **Autograd: Effortless Gratients in Numpy (2015)**, [@ICML](https://indico.ijclab.in2p3.fr/event/2914/contributions/6483/subcontributions/180/attachments/6060/7185/automl-short.pdf) +  [@ICML](https://indico.ijclab.in2p3.fr/event/2914/contributions/6483/subcontributions/180/attachments/6059/7184/talk.pdf) 📊 + [@Github](https://github.com/HIPS/autograd) 💽.
 
 ##### Back-propagation
 
 - **Learning representations by back-propagating errors (1986)**, Rumelhart, Hinton, and Williams, [@Nature](https://www.nature.com/articles/323533a0) 🔒.
 - See also: **Backpropagation Applied to Handwritten Zip Code Recognition (1989)**, LeCun et al., [@IEEE](https://ieeexplore.ieee.org/document/6795724) 🔒🔬 / [@author](http://yann.lecun.com/exdb/publis/pdf/lecun-89e.pdf) 🔑.
 
-##### Convolutional Neural Network
+##### Batch Normalization
 
-- **Gradient-based learning applied to document recognition (1998)**, LeCun, Bottou, Bengio, and Haffner, [@IEEE](https://ieeexplore.ieee.org/document/726791/) 🔒 / [@author](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) 🔑.
-- See also: **Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position (1980)**, Fukushima, [@Springer](https://link.springer.com/article/10.1007/BF00344251) 🏛️.
-- See also: **Phoneme recognition using time-delay neural networks (1989)**, Waibel, Hanazawa, Hinton, Shikano, and Lang, [@IEEE](https://ieeexplore.ieee.org/document/21701) 🏛️.
-- See also: **Fully Convolutional Networks for Semantic Segmentation (2014)**, Long, Shelhamer, and Darrell, [@arXiv](https://arxiv.org/abs/1411.4038).
+- **Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015)**, Ioffe and Szegedy [@ICML via PMLR](http://proceedings.mlr.press/v37/ioffe15.html).
 
 ##### Dropout
 
 - **Dropout: A Simple Way to Prevent Neural Networks from Overfitting (2014)**, Srivastava, Hinton, Krizhevsky, Sutskever, and Salakhutdinov, [@JMLR](http://jmlr.org/papers/v15/srivastava14a.html).
 
-##### Generative Adversarial Network
+##### Gated Recurrent Unit
 
-- **General Adversarial Nets (2014)**, Goodfellow et al., [@NIPS](https://papers.nips.cc/paper/5423-generative-adversarial-nets) + [@Github](https://github.com/goodfeli/adversarial) 💽.
-
-##### Long Short-Term Memory (LSTM)
-
-- **Long Short-term Memory (1995)**, Hochreiter and Schmidhuber, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.634).
+- **Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation (2014)**, Cho et al, [@arXiv](https://arxiv.org/abs/1406.1078).
 
 ##### Perceptron
 
 - **The Perceptron: A Probabilistic Model for Information Storage and Organization in The Brain (1958)**, Rosenblatt, [@CiteSeerX](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.588.3775).
-
-##### Residual Neural Network (ResNet)
-
-- **Deep Residual Learning for Image Recognition (2015)**, He, Zhang, Ren, and Sun, [@arXiv](https://arxiv.org/abs/1512.03385).
-
-#### Neural Networks (specific)
-
-##### DeepFace (facial recognition)
-
-- **DeepFace: Closing the Gap to Human-Level Performance in Face Verification (2014)**, Taigman, Yang, Ranzato, and Wolf, [Facebook Research](https://research.fb.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/).
-
-##### Inception (classification/detection CNN)
-
-- **Going Deeper with Convolutions (2014)**, Szegedy et al., [@ai.google](https://ai.google/research/pubs/pub43022) + [@Github](https://github.com/google/inception) 💽.
-- See also: **Rethinking the Inception Architecture for Computer Vision (2016)**, Szegedy, Vanhoucke, Ioffe, Shlens, and Wojna, [@ai.google](https://ai.google/research/pubs/pub44903) 🔬.
-- See also: **Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning (2016)**, Szegedy, Ioffe, Vanhoucke, and Alemi, [@ai.google](https://ai.google/research/pubs/pub45169) 🔬.
-
-##### U-Net (image segmentation CNN)
-
-- **U-Net: Convolutional Networks for Biomedical Image Segmentation (2015)**, Ronneberger, Fischer, Brox, [@Springer](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28) 🔒 / [@arXiv](https://arxiv.org/abs/1505.04597) 🔑.
-
-##### VGG (image recognition CNN)
-
-- **Very Deep Convolutional Networks for Large-Scale Image Recognition (2015)**, Simonyan and Zisserman, [@arXiv](https://arxiv.org/abs/1409.1556) + [@author](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) 🌐 + [@ICLR](https://iclr.cc/archive/www/lib/exe/fetch.php%3Fmedia=iclr2015:simonyan-iclr2015.pdf) 📊 + [@YouTube](https://www.youtube.com/watch?v=OQe-9P51Z0s) 🎥.
 
 #### Recommender Systems
 
@@ -237,6 +210,10 @@ Papers proceeded by “See also” indicate either additional historical context
 - **Collaborative Filtering for Implicit Feedback Datasets (2008)**, Hu, Koren, and Volinsky, [@IEEE](https://ieeexplore.ieee.org/document/4781121) 🔒 / [@author](http://yifanhu.net/PUB/cf.pdf) 🔑.
 
 #### Regression
+
+##### Elastic Net
+
+- **Regularization and variable selection via the Elastic Net (2005)**, Zou and Hastie, [@CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.124.4696).
 
 ##### Lasso
 
