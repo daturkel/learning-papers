@@ -129,6 +129,10 @@ Papers proceeded by “See also” indicate either additional historical context
 
 #### Optimization
 
+##### Adam
+
+- **Adam: A Method for Stochastic Optimization (2015)**, Kingma and Ba, [@arXiv](https://arxiv.org/abs/1412.6980).
+
 ##### Expectation Maximization
 
 - **Maximum likelihood from incomplete data via the EM algorithm (1977)**, Dempster, Laird, and Rubin, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.4884).
