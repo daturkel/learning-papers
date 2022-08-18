@@ -158,7 +158,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 ##### Quantization (Qualcomm)
 
-- **A White Paper on Neural Network Quantization (2021)**, Nagel et al., [@arXiv](https://arxiv.org/pdf/2106.08295.pdf) 🔬.
+- **A White Paper on Neural Network Quantization (2021)**, Nagel et al., [@arXiv](https://arxiv.org/abs/2106.08295) 🔬.
 
 #### Natural Language Processing
 
