@@ -4,6 +4,70 @@
 
 *My opinions are by no means the final word on these topics. Please create an issue or pull request if you have a suggestion.*
 
+- [Landmark Papers in Machine Learning](#landmark-papers-in-machine-learning)
+  - [Key](#key)
+  - [Association Rule Learning](#association-rule-learning)
+  - [Datasets](#datasets)
+    - [Enron](#enron)
+    - [ImageNet](#imagenet)
+  - [Decision Trees](#decision-trees)
+  - [Deep Learning](#deep-learning)
+    - [AlexNet (image classification CNN)](#alexnet-image-classification-cnn)
+    - [Convolutional Neural Network](#convolutional-neural-network)
+    - [DeepFace (facial recognition)](#deepface-facial-recognition)
+    - [Generative Adversarial Network](#generative-adversarial-network)
+    - [GPT](#gpt)
+    - [Inception (classification/detection CNN)](#inception-classificationdetection-cnn)
+    - [Long Short-Term Memory (LSTM)](#long-short-term-memory-lstm)
+    - [Residual Neural Network (ResNet)](#residual-neural-network-resnet)
+    - [Transformer (sequence to sequence modeling)](#transformer-sequence-to-sequence-modeling)
+    - [U-Net (image segmentation CNN)](#u-net-image-segmentation-cnn)
+    - [VGG (image recognition CNN)](#vgg-image-recognition-cnn)
+  - [Ensemble Methods](#ensemble-methods)
+    - [AdaBoost](#adaboost)
+    - [Bagging](#bagging)
+    - [Gradient Boosting](#gradient-boosting)
+    - [Random Forest](#random-forest)
+  - [Games](#games)
+    - [AlphaGo](#alphago)
+    - [Deep Blue](#deep-blue)
+  - [Optimization](#optimization)
+    - [Adam](#adam)
+    - [Expectation Maximization](#expectation-maximization)
+    - [Stochastic Gradient Descent](#stochastic-gradient-descent)
+  - [Miscellaneous](#miscellaneous)
+    - [Non-negative Matrix Factorization](#non-negative-matrix-factorization)
+    - [PageRank](#pagerank)
+    - [DeepQA (Watson)](#deepqa-watson)
+  - [Natural Language Processing](#natural-language-processing)
+    - [Latent Dirichlet Allocation](#latent-dirichlet-allocation)
+    - [Latent Semantic Analysis](#latent-semantic-analysis)
+    - [Word2Vec](#word2vec)
+  - [Neural Network Components](#neural-network-components)
+    - [Autograd](#autograd)
+    - [Back-propagation](#back-propagation)
+    - [Batch Normalization](#batch-normalization)
+    - [Dropout](#dropout)
+    - [Gated Recurrent Unit](#gated-recurrent-unit)
+    - [Perceptron](#perceptron)
+  - [Recommender Systems](#recommender-systems)
+    - [Collaborative Filtering](#collaborative-filtering)
+    - [Matrix Factorization](#matrix-factorization)
+    - [Implicit Matrix Factorization](#implicit-matrix-factorization)
+  - [Regression](#regression)
+    - [Elastic Net](#elastic-net)
+    - [Lasso](#lasso)
+  - [Software](#software)
+    - [MapReduce](#mapreduce)
+    - [TensorFlow](#tensorflow)
+    - [Torch](#torch)
+  - [Supervised Learning](#supervised-learning)
+    - [k-Nearest Neighbors](#k-nearest-neighbors)
+    - [Support Vector Machine](#support-vector-machine)
+  - [Statistics](#statistics)
+    - [The Bootstrap](#the-bootstrap)
+- [Credits](#credits)
+
 #### Key
 
 | Icon |                                                              |
@@ -22,7 +86,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 #### Association Rule Learning
 
-- **Mining Association Rules between Sets of Items in Large Databases (1993)**, Agrawal, Imielinski, and Swami, [@CiteSeerX](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.40.6984). 
+- **Mining Association Rules between Sets of Items in Large Databases (1993)**, Agrawal, Imielinski, and Swami, [@CiteSeerX](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.40.6984).
 
 - See also: **The GUHA method of automatic hypotheses determination (1966)**, Hájek, Havel, and Chytil, [@Springer](https://link.springer.com/article/10.1007/BF02345483) 🔒 🏛️.
 
@@ -99,7 +163,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 ##### AdaBoost
 
-- **A Decision-Theoretic Generalization of on-Line Learning and an Application to Boosting (1997—published as abstract in 1995)**, Freund and Schapire, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.32.8918). 
+- **A Decision-Theoretic Generalization of on-Line Learning and an Application to Boosting (1997—published as abstract in 1995)**, Freund and Schapire, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.32.8918).
 
 - See also: **Experiments with a New Boosting Algorithm (1996)**, Freund and Schapire, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.1040) 🔬.
 
@@ -221,7 +285,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 ##### Lasso
 
-- **Regression Shrinkage and Selection Via the Lasso (1994)**, Tibshirani, [@CiteSeerX](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.35.7574). 
+- **Regression Shrinkage and Selection Via the Lasso (1994)**, Tibshirani, [@CiteSeerX](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.35.7574).
 - See also: **Linear Inversion of Band-Limited Reflection Seismograms (1986)**, Santosa and Symes, [@SIAM](https://epubs.siam.org/doi/10.1137/0907087) 🏛️.
 
 #### Software
@@ -243,7 +307,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 ##### k-Nearest Neighbors
 
-- **Nearest neighbor pattern classification (1967)**, Cover and Hart, [@IEEE](https://ieeexplore.ieee.org/abstract/document/1053964) 🔒. 
+- **Nearest neighbor pattern classification (1967)**, Cover and Hart, [@IEEE](https://ieeexplore.ieee.org/abstract/document/1053964) 🔒.
 - See also: **E. Fix and J.L. Hodges (1951): An Important Contribution to Nonparametric Discriminant Analysis and Density Estimation (1989)**, Silverman and Jones, [@JSTOR](https://www.jstor.org/stable/1403796?seq=1) 🔒.
 
 ##### Support Vector Machine
