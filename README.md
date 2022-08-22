@@ -220,6 +220,10 @@ Papers proceeded by “See also” indicate either additional historical context
 
 - **Building Watson: An Overview of the DeepQA Project (2010)**, Ferrucci et al., [@AAAI](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2303).
 
+##### Quantization (Qualcomm)
+
+- **A White Paper on Neural Network Quantization (2021)**, Nagel et al., [@arXiv](https://arxiv.org/abs/2106.08295) 🔬.
+
 #### Natural Language Processing
 
 ##### Latent Dirichlet Allocation
