@@ -86,7 +86,11 @@ Papers proceeded by “See also” indicate either additional historical context
 
 #### Association Rule Learning
 
-- **Mining Association Rules between Sets of Items in Large Databases (1993)**, Agrawal, Imielinski, and Swami, [@CiteSeerX](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.40.6984).
+- **Scalable Algorithms for Association Mining (2000)**. Zaki, [@IEEE](https://ieeexplore.ieee.org/document/846291/metrics#metrics) 🔒.
+
+- **Mining Frequent Patterns without Candidate Generation (2000)**. Han, Pei, and Yin, [@acm](https://dl.acm.org/doi/10.1145/335191.335372) .
+
+- **Mining Association Rules between Sets of Items in Large Databases (1993)**, Agrawal, Imielinski, and Swami, [@CiteSeerX](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.40.6984) 🏛️.
 
 - See also: **The GUHA method of automatic hypotheses determination (1966)**, Hájek, Havel, and Chytil, [@Springer](https://link.springer.com/article/10.1007/BF02345483) 🔒 🏛️.
 
