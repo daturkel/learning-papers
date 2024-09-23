@@ -145,7 +145,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 ##### Long Short-Term Memory (LSTM)
 
-- **Long Short-term Memory (1995)**, Hochreiter and Schmidhuber, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.634).
+- **Long Short-term Memory (1997)**, Hochreiter and Schmidhuber, [@CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.634).
 
 ##### Residual Neural Network (ResNet)
 
