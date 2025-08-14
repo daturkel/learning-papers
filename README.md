@@ -129,7 +129,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 ##### Generative Adversarial Network
 
-- **General Adversarial Nets (2014)**, Goodfellow et al., [@NIPS](https://papers.nips.cc/paper/5423-generative-adversarial-nets) + [@Github](https://github.com/goodfeli/adversarial) 💽.
+- **Generative Adversarial Nets (2014)**, Goodfellow et al., [@NIPS](https://papers.nips.cc/paper/5423-generative-adversarial-nets) + [@Github](https://github.com/goodfeli/adversarial) 💽.
 
 ##### GPT
 
