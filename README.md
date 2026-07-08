@@ -242,7 +242,7 @@ Papers proceeded by “See also” indicate either additional historical context
 
 ##### Autograd
 
-- **Autograd: Effortless Gratients in Numpy (2015)**, [@ICML](https://indico.ijclab.in2p3.fr/event/2914/contributions/6483/subcontributions/180/attachments/6060/7185/automl-short.pdf) +  [@ICML](https://indico.ijclab.in2p3.fr/event/2914/contributions/6483/subcontributions/180/attachments/6059/7184/talk.pdf) 📊 + [@Github](https://github.com/HIPS/autograd) 💽.
+- **Autograd: Effortless Gradients in Numpy (2015)**, [@ICML](https://indico.ijclab.in2p3.fr/event/2914/contributions/6483/subcontributions/180/attachments/6060/7185/automl-short.pdf) +  [@ICML](https://indico.ijclab.in2p3.fr/event/2914/contributions/6483/subcontributions/180/attachments/6059/7184/talk.pdf) 📊 + [@Github](https://github.com/HIPS/autograd) 💽.
 
 ##### Back-propagation
 
